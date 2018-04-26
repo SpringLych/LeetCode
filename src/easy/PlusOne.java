@@ -24,9 +24,6 @@ public class PlusOne {
         if (i == -1 && digits[0] == 0) {
             res = new int[len + 1];
             res[0] = 1;
-            for (int j = 1; j < len + 1; j++) {
-                res[j] = 0;
-            }
             return res;
         }
         digits[i] += 1;
