@@ -7,7 +7,7 @@ import tool.ListNode;
  * @date 2018/3/23
  * 206. Reverse Linked List
  */
-public class ReverseLinkedList {
+public class P206_ReverseLinkedList {
     /**
      *
      * @param head 头结点

@@ -12,7 +12,7 @@ import tool.ListNode;
  * Given 1->1->2, return 1->2.
  * Given 1->1->2->3->3, return 1->2->3.
  */
-public class RemoveDuplicatesfromSortedList {
+public class P83_RemoveDuplicatesfromSortedList {
 
     public static ListNode deleteDuplicates(ListNode head) {
         ListNode cur = head;

@@ -11,7 +11,7 @@ import java.util.HashMap;
  * s = "anagram", t = "nagaram", return true.
  * s = "rat", t = "car", return false.
  */
-public class ValidAnagram {
+public class P242_ValidAnagram {
     public static boolean isAnagram(String s, String t) {
         String ss = s.toLowerCase();
         String tt = t.toLowerCase();

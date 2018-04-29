@@ -23,7 +23,7 @@ package easy;
  * 2. 1 step + 2 steps
  * 3. 2 steps + 1 step
  */
-public class ClimbingStairs {
+public class P70_ClimbingStairs {
     /**
      * 类似于斐波那契数列数列的求解
      * 要求出第n个台阶有几种走法，就要求出第n-1和第n-2个台阶有几种走法，依次

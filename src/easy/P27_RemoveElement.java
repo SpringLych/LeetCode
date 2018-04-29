@@ -12,7 +12,7 @@ package easy;
  * Given nums = [3,2,2,3], val = 3,
  * Your function should return length = 2, with the first two elements of nums being 2.
  */
-public class RemoveElement {
+public class P27_RemoveElement {
     /**
      * 覆盖元素
      * nums[0...l]都是保留的元素[l+1...len-1]有的元素被覆盖

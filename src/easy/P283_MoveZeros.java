@@ -10,7 +10,7 @@ package easy;
  * You must do this in-place without making a copy of the array.
  * Minimize the total number of operations.
  */
-public class MoveZeros {
+public class P283_MoveZeros {
 
     /**
      * 将所有非零元素一次前移，最后将剩下的位置赋值为0

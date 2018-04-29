@@ -21,7 +21,7 @@ import java.util.Stack;
  * return [1,2,3].
  * Note: Recursive solution is trivial, could you do it iteratively?
  */
-public class BinaryTreePreorderTraversal {
+public class P144_BinaryTreePreorderTraversal {
     public List<Integer> preorderTraversal(TreeNode root) {
         TreeNode p = root;
         LinkedList<Integer> list = new LinkedList<>();

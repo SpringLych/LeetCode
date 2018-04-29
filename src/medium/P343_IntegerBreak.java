@@ -10,7 +10,7 @@ package medium;
  * Note: You may assume that n is not less than 2 and not larger than 58.
  * 第一次提交来自于算法视频，学习动态规划
  */
-public class IntegerBreak {
+public class P343_IntegerBreak {
     //使用自顶下下配合记忆化存储
     //将n进行分割（至少分割两部分），可以获得的最大乘积
     int[] memo;

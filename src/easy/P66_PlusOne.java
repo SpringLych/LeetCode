@@ -5,7 +5,7 @@ package easy;
  * @date 2018/4/25
  * 66. Plus One
  */
-public class PlusOne {
+public class P66_PlusOne {
     public static int[] plusOne(int[] digits) {
         int len = digits.length;
         int[] res;

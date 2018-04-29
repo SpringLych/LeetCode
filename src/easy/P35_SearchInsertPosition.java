@@ -19,7 +19,7 @@ package easy;
  * Input: [1,3,5,6], 0
  * Output: 0
  */
-public class SearchInsertPosition {
+public class P35_SearchInsertPosition {
     public static int searchInsert(int[] nums, int target) {
         int index = 0;
         int len = nums.length;

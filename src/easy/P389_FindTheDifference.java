@@ -20,7 +20,7 @@ import java.util.HashMap;
  * Explanation:
  * 'e' is the letter that was added.
  */
-public class FindtheDifference {
+public class P389_FindTheDifference {
     /**
      * 这种找不同的可以转化为数字的问题就可使使用位运算 ^ 或者使数字相加减得到结果找到不同
      * @param s ;

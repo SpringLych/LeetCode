@@ -14,7 +14,7 @@ package easy;
  * Input: numbers={2, 7, 11, 15}, target=9
  * Output: index1=1, index2=2
  */
-public class TwoSumIIInputarrayissorted {
+public class P167_TwoSumIIInputarrayissorted {
     /**
      * 双指针向中间前进
      * @param numbers;

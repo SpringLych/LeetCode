@@ -9,7 +9,7 @@ package easy;
  * For example, the 32-bit integer ’11' has binary representation
  * 00000000000000000000000000001011, so the function should return 3.
  */
-public class Numberof1Bits {
+public class P191_NumberOf1Bits {
     /**
      * @param n ;
      * @return ;

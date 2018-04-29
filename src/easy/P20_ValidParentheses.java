@@ -9,7 +9,7 @@ import java.util.Stack;
  * Given a string containing just the characters '(', ')', '{', '}', '[' and ']',
  * determine if the input string is valid.
  */
-public class ValidParentheses {
+public class P20_ValidParentheses {
     public static boolean isValid(String s) {
         Stack<Character> st = new Stack<>();
         char[] arr = s.toCharArray();

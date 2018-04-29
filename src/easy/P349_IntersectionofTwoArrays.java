@@ -15,7 +15,7 @@ import java.util.HashSet;
  * Each element in the result must be unique.
  * The result can be in any order.
  */
-public class IntersectionofTwoArrays {
+public class P349_IntersectionofTwoArrays {
     public int[] intersection(int[] nums1, int[] nums2) {
         HashSet<Integer> set1 = new HashSet<>();
         HashSet<Integer> set2 = new HashSet<>();

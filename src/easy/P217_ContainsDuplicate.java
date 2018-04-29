@@ -11,7 +11,7 @@ import java.util.HashMap;
  * Your function should return true if any value appears at least twice in the array,
  * and it should return false if every element is distinct.
  */
-public class ContainsDuplicate {
+public class P217_ContainsDuplicate {
     /**
      * 使用HashM解法
      * @param nums

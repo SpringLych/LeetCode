@@ -8,7 +8,7 @@ package easy;
  * Example:
  * Given s = "hello", return "olleh".
  */
-public class ReverseString {
+public class P344_ReverseString {
     public String reverseString(String s) {
         if (s.equals("")) return "";
         char[] a = s.toCharArray();
@@ -28,7 +28,7 @@ public class ReverseString {
     }
 
     public static void main(String[] args){
-        ReverseString re = new ReverseString();
+        P344_ReverseString re = new P344_ReverseString();
         String a = "Hello";
         System.out.println(re.reverserString2(a));
     }
