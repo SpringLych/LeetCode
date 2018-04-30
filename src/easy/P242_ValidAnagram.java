@@ -1,5 +1,6 @@
 package easy;
 
+import java.util.Arrays;
 import java.util.HashMap;
 
 /**
@@ -12,29 +13,43 @@ import java.util.HashMap;
  * s = "rat", t = "car", return false.
  */
 public class P242_ValidAnagram {
-    public static boolean isAnagram(String s, String t) {
-        String ss = s.toLowerCase();
-        String tt = t.toLowerCase();
-        HashMap<Character, Character> map = new HashMap<>();
-        int sLen = ss.length();
-        int tLen = tt.length();
-        if (sLen == 0 && tLen == 0) {
-            return true;
-        } else if (sLen != tLen) {
-            return false;
+    /**
+     *利用一个数组保存s，t中每个字母出现的次数，如果最后数组元素全为0，返回true
+     * 时间复杂度O(n)
+     */
+    public boolean isAnagram1(String s, String t) {
+        int sLen = s.length(), tLen = t.length(), indexS, indexT;
+        if (sLen != tLen) return false;
+        int[] arr = new int[26];
+        for (int i = 0; i < sLen; i++){
+            indexS = s.charAt(i);
+            indexT = t.charAt(i);
+            arr[indexS - 97] ++;
+            arr[indexT - 97] --;
         }
-        for (int i = 0; i < sLen; i++) {
-            map.put(ss.charAt(i), ss.charAt(i));
-        }
-        for (int i = 0; i < tLen; i++) {
-            char temp = tt.charAt(i);
-            if (map.get(temp) == null) return false;
-            if (temp != map.get(temp)) return false;
+        for (int i : arr){
+            if (i != 0)
+                return false;
         }
         return true;
     }
 
-    public static void main(String[] args) {
-        boolean isTrue = isAnagram("a", "b");
+    /**
+     *先利用快排进行一次排序，之后遍历比较，时间复杂度O(nlogn)
+     */
+    public boolean isAnagram(String s, String t){
+        int sLen = s.length();
+        int tLen = t.length();
+        if (sLen != tLen) return false;
+        char[] ss = s.toCharArray();
+        char[] tt = t.toCharArray();
+        Arrays.sort(ss);
+        Arrays.sort(tt);
+        for (int i = 0; i < sLen; i++){
+            if (ss[i] != tt[i]){
+                return false;
+            }
+        }
+        return true;
     }
 }
