@@ -26,11 +26,4 @@ public class P344_ReverseString {
         StringBuilder sb = new StringBuilder(s);
         return sb.reverse().toString();
     }
-
-    public static void main(String[] args){
-        P344_ReverseString re = new P344_ReverseString();
-        String a = "Hello";
-        System.out.println(re.reverserString2(a));
-    }
-
 }

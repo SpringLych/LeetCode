@@ -20,7 +20,7 @@ package easy;
  * Output: 0
  */
 public class P35_SearchInsertPosition {
-    public static int searchInsert(int[] nums, int target) {
+    public int searchInsert(int[] nums, int target) {
         int index = 0;
         int len = nums.length;
         if (target > nums[len - 1]) return len;
@@ -36,12 +36,5 @@ public class P35_SearchInsertPosition {
             }
         }
         return l;
-    }
-
-    public static void main(String[] args) {
-        int[] a = {1, 2, 4, 6, 7};
-        int tar = 9;
-        int result = searchInsert(a, tar);
-        System.out.println("result = " + result);
     }
 }

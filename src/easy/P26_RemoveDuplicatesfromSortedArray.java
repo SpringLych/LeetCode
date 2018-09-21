@@ -21,7 +21,7 @@ public class P26_RemoveDuplicatesfromSortedArray {
      * @param nums;
      * @return;
      */
-    public static int removeDuplicates(int[] nums) {
+    public int removeDuplicates(int[] nums) {
         int len = nums.length;
         //[0...index]为最后结果，无无重复元素
         //[l...r]为重复元素
@@ -37,14 +37,5 @@ public class P26_RemoveDuplicatesfromSortedArray {
             }
         }
         return index + 1;
-    }
-
-    public static void main(String[] args){
-        int[] a= {1, 1, 1, 2, 2, 3, 3, 3};
-        int res = removeDuplicates(a);
-        System.out.println("res = " + res);
-        for (int i : a){
-            System.out.print(i + ", ");
-        }
     }
 }

@@ -14,7 +14,7 @@ import tool.ListNode;
  */
 public class P83_RemoveDuplicatesfromSortedList {
 
-    public static ListNode deleteDuplicates(ListNode head) {
+    public ListNode deleteDuplicates(ListNode head) {
         ListNode cur = head;
         ListNode cNext ;
 
@@ -27,24 +27,5 @@ public class P83_RemoveDuplicatesfromSortedList {
             cur = cur.next;
         }
         return head;
-    }
-
-    public static void main(String[] args){
-        AddNode re = new AddNode();
-        re.addNode(1);
-        re.addNode(1);
-        re.addNode(1);
-        re.addNode(2);
-        re.addNode(2);
-        re.addNode(3);
-        re.addNode(3);
-        re.addNode(3);
-        ListNode head = re.head;
-        deleteDuplicates(head);
-        while (head != null){
-            System.out.print(head.val + "->");
-            head = head.next;
-        }
-
     }
 }
