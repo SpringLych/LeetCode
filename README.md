@@ -1,2 +1,2 @@
 # LeetCode
-Records my leetcode process,continue to updata.
+记录LeetCode练习，先从easy练起
