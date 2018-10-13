@@ -5,5 +5,4 @@ import java.util.Scanner;
  * @date 2018/1/25
  */
 public class Main {
-
 }
