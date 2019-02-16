@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="18c8f7b6-6517-4d55-af35-01a60fcd5a98" name="Default" comment="p961">
-      <change afterPath="$PROJECT_DIR$/src/easy/P455_AssignCookies.java" afterDir="false" />
+    <list default="true" id="18c8f7b6-6517-4d55-af35-01a60fcd5a98" name="Default" comment="p455">
+      <change afterPath="$PROJECT_DIR$/src/easy/P599_MinimumIndexSumofTwoLists.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -16,10 +16,10 @@
     <session id="-1787597000">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="47" />
+          <entry key="project.closed" value="48" />
           <entry key="project.open.time.0" value="4" />
           <entry key="project.open.time.1" value="3" />
-          <entry key="project.open.time.10" value="7" />
+          <entry key="project.open.time.10" value="8" />
           <entry key="project.open.time.11" value="6" />
           <entry key="project.open.time.12" value="9" />
           <entry key="project.open.time.13" value="5" />
@@ -34,13 +34,13 @@
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="3" />
-          <entry key="project.opened" value="49" />
+          <entry key="project.opened" value="50" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="2" />
-          <entry key="java" value="98" />
+          <entry key="java" value="99" />
           <entry key="md" value="2" />
           <entry key="old" value="1" />
         </counts>
@@ -48,7 +48,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Git file" value="2" />
-          <entry key="JAVA" value="98" />
+          <entry key="JAVA" value="99" />
           <entry key="Markdown" value="2" />
           <entry key="Scratch" value="1" />
         </counts>
@@ -57,16 +57,16 @@
         <counts>
           <entry key="dummy" value="11" />
           <entry key="ft" value="10" />
-          <entry key="java" value="20859" />
+          <entry key="java" value="20897" />
           <entry key="md" value="21" />
-          <entry key="txt" value="141" />
+          <entry key="txt" value="145" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="20859" />
+          <entry key="JAVA" value="20897" />
           <entry key="Markdown" value="21" />
-          <entry key="PLAIN_TEXT" value="152" />
+          <entry key="PLAIN_TEXT" value="156" />
           <entry key="VTL" value="10" />
         </counts>
       </usages-collector>
@@ -74,11 +74,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/easy/P455_AssignCookies.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+            <state relative-caret-position="440">
+              <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/easy/P599_MinimumIndexSumofTwoLists.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -98,7 +110,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/easy/P682_BaseballGame.java" />
         <option value="$PROJECT_DIR$/src/easy/P771_JewelsAndStones.java" />
         <option value="$PROJECT_DIR$/src/easy/P804_UniqueMorseCodeWords.java" />
         <option value="$PROJECT_DIR$/src/easy/P344_ReverseString.java" />
@@ -149,6 +160,7 @@
         <option value="$PROJECT_DIR$/src/easy/P112_PathSum.java" />
         <option value="$PROJECT_DIR$/src/easy/P961_NRepeatedElementinSize2NArray.java" />
         <option value="$PROJECT_DIR$/src/easy/P455_AssignCookies.java" />
+        <option value="$PROJECT_DIR$/src/easy/P599_MinimumIndexSumofTwoLists.java" />
       </list>
     </option>
   </component>
@@ -159,9 +171,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="183" />
-    <option name="y" value="11" />
-    <option name="width" value="1545" />
+    <option name="x" value="182" />
+    <option name="y" value="9" />
+    <option name="width" value="1546" />
     <option name="height" value="952" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -198,8 +210,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -430,14 +442,8 @@
       <workItem from="1541320943401" duration="1163000" />
       <workItem from="1541945184712" duration="941000" />
       <workItem from="1550052399039" duration="2667000" />
-      <workItem from="1550134933047" duration="305000" />
-    </task>
-    <task id="LOCAL-00006" summary="6th commit">
-      <created>1521861410846</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1521861410846</updated>
+      <workItem from="1550134933047" duration="548000" />
+      <workItem from="1550304685868" duration="1169000" />
     </task>
     <task id="LOCAL-00007" summary="7th commit">
       <created>1522225436984</created>
@@ -775,16 +781,24 @@
       <option name="project" value="LOCAL" />
       <updated>1550053726351</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="p455">
+      <created>1550135266570</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1550135266570</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="156652000" />
+    <option name="totallyTimeSpent" value="158064000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1563" height="845" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29900333" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30299002" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -850,7 +864,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="412" />
     <MESSAGE value="414" />
     <MESSAGE value="434" />
     <MESSAGE value="1" />
@@ -875,17 +888,11 @@
     <MESSAGE value="P100递归" />
     <MESSAGE value="P112递归" />
     <MESSAGE value="p961" />
-    <option name="LAST_COMMIT_MESSAGE" value="p961" />
+    <MESSAGE value="p455" />
+    <option name="LAST_COMMIT_MESSAGE" value="p455" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/easy/P326_PowerOfThree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/easy/P83_RemoveDuplicatesfromSortedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -1229,8 +1236,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/easy/P455_AssignCookies.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+        <state relative-caret-position="440">
+          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/easy/P599_MinimumIndexSumofTwoLists.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
