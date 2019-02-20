@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="18c8f7b6-6517-4d55-af35-01a60fcd5a98" name="Default" comment="p455">
-      <change afterPath="$PROJECT_DIR$/src/easy/P599_MinimumIndexSumofTwoLists.java" afterDir="false" />
+    <list default="true" id="18c8f7b6-6517-4d55-af35-01a60fcd5a98" name="Default" comment="p599-找相似">
+      <change afterPath="$PROJECT_DIR$/src/easy/P917_ReverseOnlyLetters.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -16,7 +16,7 @@
     <session id="-1787597000">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="48" />
+          <entry key="project.closed" value="49" />
           <entry key="project.open.time.0" value="4" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.10" value="8" />
@@ -30,17 +30,17 @@
           <entry key="project.open.time.2" value="3" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="3" />
-          <entry key="project.opened" value="50" />
+          <entry key="project.opened" value="51" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="2" />
-          <entry key="java" value="99" />
+          <entry key="java" value="100" />
           <entry key="md" value="2" />
           <entry key="old" value="1" />
         </counts>
@@ -48,7 +48,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Git file" value="2" />
-          <entry key="JAVA" value="99" />
+          <entry key="JAVA" value="100" />
           <entry key="Markdown" value="2" />
           <entry key="Scratch" value="1" />
         </counts>
@@ -57,16 +57,16 @@
         <counts>
           <entry key="dummy" value="11" />
           <entry key="ft" value="10" />
-          <entry key="java" value="20897" />
+          <entry key="java" value="21711" />
           <entry key="md" value="21" />
-          <entry key="txt" value="145" />
+          <entry key="txt" value="153" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="20897" />
+          <entry key="JAVA" value="21711" />
           <entry key="Markdown" value="21" />
-          <entry key="PLAIN_TEXT" value="156" />
+          <entry key="PLAIN_TEXT" value="164" />
           <entry key="VTL" value="10" />
         </counts>
       </usages-collector>
@@ -83,13 +83,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/easy/P599_MinimumIndexSumofTwoLists.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+            <state relative-caret-position="20">
+              <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/easy/P917_ReverseOnlyLetters.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="32" column="5" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="32" selection-end-column="5" />
+              <folding>
+                <element signature="e#785#786#0" expanded="true" />
+                <element signature="e#829#830#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -110,7 +123,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/easy/P771_JewelsAndStones.java" />
         <option value="$PROJECT_DIR$/src/easy/P804_UniqueMorseCodeWords.java" />
         <option value="$PROJECT_DIR$/src/easy/P344_ReverseString.java" />
         <option value="$PROJECT_DIR$/src/easy/P83_RemoveDuplicatesfromSortedList.java" />
@@ -161,6 +173,7 @@
         <option value="$PROJECT_DIR$/src/easy/P961_NRepeatedElementinSize2NArray.java" />
         <option value="$PROJECT_DIR$/src/easy/P455_AssignCookies.java" />
         <option value="$PROJECT_DIR$/src/easy/P599_MinimumIndexSumofTwoLists.java" />
+        <option value="$PROJECT_DIR$/src/easy/P917_ReverseOnlyLetters.java" />
       </list>
     </option>
   </component>
@@ -171,9 +184,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="182" />
-    <option name="y" value="9" />
-    <option name="width" value="1546" />
+    <option name="x" value="180" />
+    <option name="y" value="8" />
+    <option name="width" value="1547" />
     <option name="height" value="952" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -184,6 +197,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -210,7 +224,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
@@ -238,7 +251,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.P922_SortArrayByParityII">
+  <component name="RunManager" selected="Application.P917_ReverseOnlyLetters">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -247,20 +260,6 @@
     </configuration>
     <configuration name="P205_IsomorphicStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="easy.P205_IsomorphicStrings" />
-      <module name="LeetCode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="P290_WordPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="easy.P290_WordPattern" />
       <module name="LeetCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -289,6 +288,20 @@
     </configuration>
     <configuration name="P448_FindAllNumbersDisappearedInAnArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="easy.P448_FindAllNumbersDisappearedInAnArray" />
+      <module name="LeetCode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="P917_ReverseOnlyLetters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="easy.P917_ReverseOnlyLetters" />
       <module name="LeetCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -345,19 +358,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.P290_WordPattern" />
       <item itemvalue="Application.P205_IsomorphicStrings" />
       <item itemvalue="Application.P3_LongestSubstringWithoutRepeatingCharacters" />
       <item itemvalue="Application.P448_FindAllNumbersDisappearedInAnArray" />
       <item itemvalue="Application.P922_SortArrayByParityII" />
+      <item itemvalue="Application.P917_ReverseOnlyLetters" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.P917_ReverseOnlyLetters" />
         <item itemvalue="Application.P922_SortArrayByParityII" />
         <item itemvalue="Application.P3_LongestSubstringWithoutRepeatingCharacters" />
         <item itemvalue="Application.P448_FindAllNumbersDisappearedInAnArray" />
         <item itemvalue="Application.P205_IsomorphicStrings" />
-        <item itemvalue="Application.P290_WordPattern" />
       </list>
     </recent_temporary>
   </component>
@@ -443,14 +456,8 @@
       <workItem from="1541945184712" duration="941000" />
       <workItem from="1550052399039" duration="2667000" />
       <workItem from="1550134933047" duration="548000" />
-      <workItem from="1550304685868" duration="1169000" />
-    </task>
-    <task id="LOCAL-00007" summary="7th commit">
-      <created>1522225436984</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1522225436985</updated>
+      <workItem from="1550304685868" duration="1892000" />
+      <workItem from="1550667756417" duration="3499000" />
     </task>
     <task id="LOCAL-00008" summary="8th commit">
       <created>1522244306552</created>
@@ -788,17 +795,24 @@
       <option name="project" value="LOCAL" />
       <updated>1550135266570</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="p599-找相似">
+      <created>1550306932491</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1550306932492</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="158064000" />
+    <option name="totallyTimeSpent" value="162286000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1563" height="845" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30299002" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30697674" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -807,7 +821,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32935917" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49966776" weight="0.3323398" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49966776" visible="true" weight="0.266766" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4575261" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -864,7 +878,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="414" />
     <MESSAGE value="434" />
     <MESSAGE value="1" />
     <MESSAGE value="485" />
@@ -889,17 +902,11 @@
     <MESSAGE value="P112递归" />
     <MESSAGE value="p961" />
     <MESSAGE value="p455" />
-    <option name="LAST_COMMIT_MESSAGE" value="p455" />
+    <MESSAGE value="p599-找相似" />
+    <option name="LAST_COMMIT_MESSAGE" value="p599-找相似" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/easy/P83_RemoveDuplicatesfromSortedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/easy/P226_InvertBinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -1123,9 +1130,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="820">
           <caret line="43" selection-start-line="43" selection-end-line="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1161,9 +1165,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="800">
           <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1178,9 +1179,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="424">
           <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1243,10 +1241,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/easy/P599_MinimumIndexSumofTwoLists.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        <state relative-caret-position="20">
+          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/easy/P917_ReverseOnlyLetters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="32" column="5" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="32" selection-end-column="5" />
+          <folding>
+            <element signature="e#785#786#0" expanded="true" />
+            <element signature="e#829#830#0" expanded="true" />
           </folding>
         </state>
       </provider>
